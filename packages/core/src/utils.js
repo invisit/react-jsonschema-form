@@ -1,7 +1,6 @@
 import React from "react";
 import * as ReactIs from "react-is";
 import mergeAllOf from "json-schema-merge-allof";
-import fill from "core-js/library/fn/array/fill";
 import union from "lodash/union";
 import jsonpointer from "jsonpointer";
 import fields from "./components/fields";
@@ -282,7 +281,7 @@ function computeDefaults(
             const fillerSchema = Array.isArray(schema.items)
               ? schema.additionalItems
               : schema.items;
-            const fillerEntries = fill(
+            const fillerEntries = Array.fill(
               new Array(schema.minItems - defaultsLength),
               computeDefaults(fillerSchema, fillerSchema.defaults, rootSchema)
             );

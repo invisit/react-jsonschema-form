@@ -49,7 +49,7 @@
     "@rjsf/semantic-ui": "^2.4.0",
     "ajv": "^6.7.0",
     "antd": "^4.3.5",
-    "core-js": "^2.5.7",
+    "core-js": "^3.6.5",
     "dayjs": "^1.8.28",
     "json-schema-merge-allof": "^0.6.0",
     "jss": "^10.0.3",

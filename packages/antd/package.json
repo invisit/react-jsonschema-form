@@ -28,7 +28,7 @@
     "@rjsf/core": "^2.0.0",
     "antd": "^4.0.0",
     "antd-dayjs-webpack-plugin": "1.0.0",
-    "core-js": "^2.5.7",
+    "core-js": "^3.6.5",
     "dayjs": "^1.8.0",
     "lodash": "^4.17.15",
     "react": ">=16"
@@ -51,7 +51,7 @@
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.6",
     "concurrently": "^5.1.0",
-    "core-js": "^2.5.7",
+    "core-js": "^3.6.5",
     "cross-env": "^2.0.1",
     "css-loader": "^3.2.0",
     "dayjs": "^1.8.0",
