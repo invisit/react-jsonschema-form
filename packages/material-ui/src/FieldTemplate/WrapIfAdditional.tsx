@@ -12,7 +12,7 @@ import IconButton from "../IconButton/IconButton";
 
 const { ADDITIONAL_PROPERTY_FLAG } = utils;
 
-type WrapIfAdditionalProps = {
+export type WrapIfAdditionalProps = {
   children: React.ReactElement;
   classNames: string;
   disabled: boolean;
@@ -25,7 +25,7 @@ type WrapIfAdditionalProps = {
   schema: JSONSchema7;
 };
 
-const WrapIfAdditional = ({
+export const WrapIfAdditional = ({
   children,
   disabled,
   id,

@@ -1,7 +1,7 @@
 import MuiForm from './MuiForm/MuiForm';
 
 export { default as Fields } from './Fields';
-export { default as FieldTemplate } from './FieldTemplate';
+export { default as FieldTemplate, WrapIfAdditional, WrapIfAdditionalProps } from './FieldTemplate';
 export { default as MuiForm } from './MuiForm';
 export { default as ObjectFieldTemplate } from './ObjectFieldTemplate';
 export { default as Theme } from './Theme';
