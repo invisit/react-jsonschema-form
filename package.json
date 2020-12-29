@@ -11,7 +11,9 @@
     "lint": "lerna run lint",
     "cs-check": "lerna run cs-check",
     "cs-format": "lerna run cs-format",
+    "pack": "lerna exec -- npm pack",
     "build": "lerna run --stream build",
+    
     "start": "lerna run start --stream --parallel"
   },
   "dependencies": {

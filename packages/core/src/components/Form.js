@@ -479,13 +479,7 @@ export default class Form extends Component {
         />
         {children ? (
           children
-        ) : (
-          <div>
-            <button type="submit" className="btn btn-info">
-              Submit
-            </button>
-          </div>
-        )}
+        ) : null}
       </FormTag>
     );
   }

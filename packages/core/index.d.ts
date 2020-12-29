@@ -9,7 +9,8 @@ declare module '@rjsf/core' {
     };
 
     export interface FormProps<T> {
-        acceptcharset?: string;
+      ref?: any
+      acceptcharset?: string;
         action?: string;
         additionalMetaSchemas?: ReadonlyArray<object>;
         ArrayFieldTemplate?: React.StatelessComponent<ArrayFieldTemplateProps>;
